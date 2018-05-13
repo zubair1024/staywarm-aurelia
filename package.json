@@ -1,0 +1,34 @@
+{
+  "name": "realty",
+  "version": "1.0.0",
+  "description": "A real estate portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubair1024/realty.git"
+  },
+  "author": "Zubair Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zubair1024/realty/issues"
+  },
+  "homepage": "https://github.com/zubair1024/realty#readme",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "cloudinary": "1.9.0",
+    "compression": "^1.7.0",
+    "cors": "^2.8.4",
+    "express": "4.15.3",
+    "mongoose": "4.11.3",
+    "mongoose-paginate": "5.0.3",
+    "multer": "1.3.0",
+    "multer-storage-cloudinary": "2.2.1",
+    "nodemailer": "^4.0.1",
+    "path": "0.12.7",
+    "request": "^2.81.0"
+  }
+}
