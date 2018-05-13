@@ -1,0 +1,94 @@
+/* ==============================================================
+
+Template name : Increate - Onepage and multipurpose landingpage template
+Categorie : Landing page
+Author : Nce18cex
+Version : v1.0.0
+Created : 29 july 2014
+Last update : 09 August 2014
+
+-----------------------------------------------------------------
+CSS structure
+-----------------------------------------------------------------
+
+01. Color
+02. Border color
+03. Background color
+04. Color on mobile
+
+============================================================== */
+
+/*
+Color
+=========================== */
+a,
+a:focus,
+a:hover,
+.navbar-inverse .navbar-nav li a:hover,
+.nav-tabs li a:hover,
+.nav-tabs li.active a,
+.nav-tabs li.active a:hover,
+.nav-tabs li.active a:focus,
+.nav-tabs li.active a:active,
+.image-link:hover,
+.pricing-head .price,
+.validation,
+.comment-wrapper .media h5 a:hover{
+	color:#e3333e;
+}
+
+/*
+Border color
+=========================== */
+.navbar-inverse .navbar-nav li.active a,
+.navbar-inverse .navbar-nav li.active a:hover,
+.navbar-inverse .navbar-nav li.active a:focus,
+.navbar-inverse .navbar-nav li.active a:active,
+.navbar-inverse .navbar-nav li a.selected,
+.navbar-inverse .navbar-nav li a.selected:hover,
+.navbar-inverse .navbar-nav li a.selected:focus,
+.navbar-inverse .navbar-nav li a.selected:active,
+.navbar-inverse .navbar-nav li.dropdown a.dropdown-toggle:focus,
+.navbar-inverse .navbar-nav li.dropdown a.dropdown-toggle:active,
+.image-link:hover,
+.form-control:focus,
+.navbar-header .navbar-toggle:hover{
+	border-color:#e3333e;
+}
+
+/*
+Background color
+=========================== */
+#home,
+.color-bg,
+.inner-head,
+.heading span.heding-style,
+.pricing-box.featured,
+.navbar-header .navbar-toggle:hover,
+span.widget-style,
+.icon-service{
+	background-color:#e3333e;
+}
+
+/*
+Color on mobile
+=========================== */
+@media (max-width: 767px) {
+	.navbar-inverse .navbar-nav li a:hover,
+	.navbar-inverse .navbar-nav li.active a,
+	.navbar-inverse .navbar-nav li.active a:hover,
+	.navbar-inverse .navbar-nav li.active a:focus,
+	.navbar-inverse .navbar-nav li.active a:active,
+	.navbar-inverse .navbar-nav li a.selected,
+	.navbar-inverse .navbar-nav li a.selected:hover,
+	.navbar-inverse .navbar-nav li a.selected:focus,
+	.navbar-inverse .navbar-nav li a.selected:active,
+	.navbar-inverse .navbar-nav li.dropdown a.dropdown-toggle:focus,
+	.navbar-inverse .navbar-nav li.dropdown a.dropdown-toggle:active,
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover{
+		background-color:#e3333e;
+	}
+	.navbar-inverse .navbar-nav li a:hover{
+		color:#fff;
+	}
+}

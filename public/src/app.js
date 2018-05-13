@@ -23,7 +23,7 @@ export class App {
 
         default:
           if (data.statusText) {
-            }
+          }
           break;
         }
       };
@@ -81,32 +81,32 @@ class postRenderStep {
     $('html, body').animate({ scrollTop: 0 }, 'fast');
 
     if (navigationInstruction.config && navigationInstruction.config.name) {
-      this.setActiveTab(navigationInstruction.config.name);
+      // this.setActiveTab(navigationInstruction.config.name);
     }
     return next();
   }
 
   setActiveTab(name) {
-    $('#home-link').parent().removeClass('active');
-    $('#contact-link').parent().removeClass('active');
-    $('#submit-link').parent().removeClass('active');
-    $('#faq-link').parent().removeClass('active');
-    switch (name) {
-    case 'submit':
-      $('#submit-link').parent().addClass('active');
-      break;
-    case 'contact':
-      $('#contact-link').parent().addClass('active');
-      break;
-    case 'faq':
-      $('#faq-link').parent().addClass('active');
-      break;
-    case 'home':
-      $('#home-link').parent().addClass('active');
-      break;
-    default:
-      break;
-    }
+    // $('#home-link').parent().removeClass('active');
+    // $('#contact-link').parent().removeClass('active');
+    // $('#submit-link').parent().removeClass('active');
+    // $('#faq-link').parent().removeClass('active');
+    // switch (name) {
+    // case 'submit':
+    //   $('#submit-link').parent().addClass('active');
+    //   break;
+    // case 'contact':
+    //   $('#contact-link').parent().addClass('active');
+    //   break;
+    // case 'faq':
+    //   $('#faq-link').parent().addClass('active');
+    //   break;
+    // case 'home':
+    //   $('#home-link').parent().addClass('active');
+    //   break;
+    // default:
+    //   break;
+    // }
   }
 }
 
